@@ -1,5 +1,5 @@
 server:
-  port: 8060422342
+  port: 8060
 
 logging:
   pattern:
