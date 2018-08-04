@@ -13,3 +13,7 @@ eureka:
         defaultZone: http://localhost:8082/eureka/
 
 message: Hello world
+
+logging:
+  pattern: 
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
