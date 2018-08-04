@@ -1,9 +1,9 @@
 spring:
   application:
-    name:hello-service
+    name: hello-service
 
 server:
-  port:8083
+  port: 8083
 
 eureka:
   client:
