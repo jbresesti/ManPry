@@ -1,0 +1,15 @@
+spring:
+  application:
+    name:hello-service
+
+server:
+  port:8083
+
+eureka:
+  client:
+      region: default
+      registryFetchIntervalSeconds: 5
+      serviceUrl:
+        defaultZone: http://localhost:8082/eureka/
+
+message: Hello world
