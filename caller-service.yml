@@ -12,7 +12,7 @@ eureka:
       serviceUrl:
         defaultZone: http://localhost:8082/eureka/
 
-message: Hello world
+message: Alfred alive
 
 logging:
   pattern: 
