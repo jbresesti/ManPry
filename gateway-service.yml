@@ -14,7 +14,7 @@ spring:
       routes:
       - id: hello-service
         #uri: lb://hello-service
-        uri: http://localhost:8083
+        uri: http://localhost:8083234242
         predicates:
         - Path=/hola/**
         filters:
