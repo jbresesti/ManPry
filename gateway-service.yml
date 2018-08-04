@@ -19,6 +19,13 @@ spring:
         - Path=/hola/**
         filters:
         - RewritePath=/hola/(?<path>.*), /$\{path}
+        - id: caller-service
+        #uri: lb://hello-service
+        uri: http://localhost:8084
+        predicates:
+        - Path=/hola/**
+        filters:
+        - RewritePath=/hola/(?<path>.*), /$\{path}
 #      - id: department-service
 #        uri: lb://department-service
 #        predicates:
